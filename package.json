@@ -1,0 +1,25 @@
+{
+    "name": "shiny-adventure",
+    "version": "1.0.0",
+    "description": "A node cli that generates and prints reddit articles",
+    "main": "app.js",
+    "scripts": {
+        "start": "node  app.mjs --print",
+        "print": "node  app.mjs --print"
+    },
+    "bin": {
+        "shiny": "./app.mjs"
+    },
+    "repository": "https://github.com/chombazm/shiny-adventure",
+    "author": "chomba <chomba@bongohive.co.zm>",
+    "license": "MIT",
+    "dependencies": {
+        "node-fetch": "^3.1.0",
+        "open": "^8.4.0",
+        "yargs": "^17.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.5.0",
+        "prettier": "^2.5.1"
+    }
+}
